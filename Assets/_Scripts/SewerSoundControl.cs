@@ -9,7 +9,7 @@ public class SewerSoundControl : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("Bazinga");
+        Debug.Log("Bazinga: Rain audio off");
         ambientAudio.GetComponent<AudioSource>().enabled = false;
         
     }
