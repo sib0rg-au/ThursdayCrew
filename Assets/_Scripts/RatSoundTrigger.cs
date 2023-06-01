@@ -17,11 +17,12 @@ public class RatSoundTrigger : MonoBehaviour
   
     private void OnTriggerEnter(Collider col)
     {
-       if (player.tag == "Player")
+       if (col.tag == "Player")
         {
+            
             m_AudioSource.Play();
             Debug.Log("Squeak");
-            //m_Collider.enabled = false;
+            m_Collider.enabled = false;
         }
         
     }
