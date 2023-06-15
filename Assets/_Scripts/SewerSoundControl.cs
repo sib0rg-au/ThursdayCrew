@@ -10,12 +10,12 @@ public class SewerSoundControl : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         Debug.Log("Bazinga: Rain audio off");
-        ambientAudio.GetComponent<AudioSource>().enabled = false;
+        ambientAudio.GetComponent<AudioSource>().volume = 0.1f;
         
     }
 
     private void OnTriggerExit(Collider other)
     {
-        ambientAudio.GetComponent <AudioSource>().enabled = true;
+        ambientAudio.GetComponent<AudioSource>().volume = 0.5f;
     }
 }
