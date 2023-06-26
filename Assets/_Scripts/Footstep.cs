@@ -10,7 +10,7 @@ public class Footstep : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             footstepsSound.enabled = true;
-            audio.pitch = Random.Range();
+            GetComponent<AudioSource>().pitch = Random.Range(0,4);
         }
         else
         {
