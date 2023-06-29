@@ -2811,9 +2811,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -2001900777256132951, guid: 5bfc649d5aa26f947b143535ad667e1b,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 45e8e757583a63546a41d3efd8dd80c5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: df531d24f0bd16842b889d9c185bb11b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.775
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4143,9 +4143,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -2001900777256132951, guid: 5bfc649d5aa26f947b143535ad667e1b,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 45e8e757583a63546a41d3efd8dd80c5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: df531d24f0bd16842b889d9c185bb11b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.783
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6347,9 +6347,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 45e8e757583a63546a41d3efd8dd80c5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: df531d24f0bd16842b889d9c185bb11b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.762
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6677,8 +6677,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 33.20742, y: 8.799984, z: 2.6078217}
-  m_Center: {x: 5.164505, y: -3.9863489, z: 0.8039217}
+  m_Size: {x: 56.621727, y: 1.726709, z: 2.6078217}
+  m_Center: {x: 49.605125, y: -0.44971147, z: 0.8039239}
 --- !u!114 &318952481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6691,7 +6691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9904fda8924b030488d9a4dce0559411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1243376489}
 --- !u!82 &318952482
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6704,14 +6704,14 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -1115792617370222686, guid: 5bfc649d5aa26f947b143535ad667e1b,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 6d51cd8341000d64e93a052aad43622a, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0
+  m_PlayOnAwake: 0
+  m_Volume: 0.345
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 6
+  Priority: 80
   DopplerLevel: 1
   MinDistance: 4.075642
   MaxDistance: 500
@@ -6797,7 +6797,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318952479}
   m_LocalRotation: {x: -0, y: -0.0011301927, z: -0, w: 0.9999994}
-  m_LocalPosition: {x: -1.47, y: 4.91, z: -4.49}
+  m_LocalPosition: {x: -8.39, y: 4.91, z: -8.84}
   m_LocalScale: {x: 0.22985, y: 0.48474, z: 0.51387197}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69992,7 +69992,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28894
+  m_Name: pb_Mesh147046
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -71504,7 +71504,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 205
   DopplerLevel: 1
-  MinDistance: 22.9
+  MinDistance: 2
   MaxDistance: 40
   Pan2D: 0
   rolloffMode: 0
@@ -93476,7 +93476,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28904
+  m_Name: pb_Mesh147072
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
